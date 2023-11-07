@@ -4,7 +4,7 @@ Taking the hardware developed as part of ClemensElfleins work on Openmower and a
 This is my first venture into Github so it might get a bit clunky. 
 Usual rules apply.. please try to be constructive, I'm learning as I go so if you're going to leave some negative feedback have the grace to tell me why and how I can put it right.
 
-THe Openmower project by ClemensElflein started all this for me and I've been so fed up with the performance (or lack thereof) of my Landroid WR141E that I considered selling it and then just buying his kit
+The Openmower project by ClemensElflein started all this for me and I've been so fed up with the performance (or lack thereof) of my Landroid WR141E that I considered selling it and then just buying his kit
 however, the Landroid does have cut to edge capability that the Open mower doesnt have and when all is said and done it probably works out at about the same cost.
 
 According to the Gurus on Discord, the firmware in the Landroid is encoded, the data streams between the processors is encoded, the main processor is read locked and the JTAG interface is disabled.
