@@ -12,3 +12,6 @@ I dont have the knowledge, expertise or equipment to hack into the exiitng Landr
 and port it into the Landroid WR141E.
 
 The main thrust of this first stage of the project is to adjust the Openmower motherboard to fit into the available space in the Landroid.
+
+I am also discussinbg development and asking questions on Discord as @Slartibartfast
+
