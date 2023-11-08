@@ -1,1 +1,41 @@
+8 Nov 2023
+I didnt get any replies yet in Discord so I just went ahead and made some further changes to the board
++ Deleted 3 of the 5 USS feeds - 2 remain 
++ Moved the Hall signals to IC1
++ Tidied up the Muxers as a result of deleting the USS feeds. Unused inputs on U10 now tied to gnd.
++ Added back 2 resistors R7 and R13 for the sound module plug that I had moved off board
++ Deleted the 4 descete component Hall level changers after moving the signals to IC1
+I finally got all the components onto the mainboard but havent added the any copper yet, just using the ratlines in Kicad as a rough guide.
+I checked so see the Hall sensor fitted on the Landroid nose wheel. Its basically 2x 4108p Hall sensors in parallel giving 2 output lines, theres no pullups so assume that must be done onboard. I'll only need to use one of them.
+Final thing for the day was to upload to GitHub and write todays changelog. GitHub could be easier to manage especially when creating file folders or directories - either that or Im just doing it wrong.
+
+7 Nov 2023
+I confirmed the need to delete the audio module from the Mobo but have added a 5 pin JST connector so that it can be added later, I like the idea of some audio feedback perhaps in an Arnie Schwarzegger style  e.g. “Knock Knock” if it bumps into something or “I’ll be back” at the end of cut
+I also added another 5 pin JST connector for the GPS and corrected an earlier mistake when I used a 2x3 Molex connector for each of the motors instead of a 1x3 Molex. (this is instead of the large Molex connector that also handles the Hall sensors in the motor.
+I keep referring back to the photos from the Open Mower project and questions/observations/notes to self are starting to surface as I delve into the circuit board design.
+•	The ESC schematic shows 2 x220uF capacitors on the Vin rail but only 1 is physically present on some of the phots of the Mobo – should I allow for 2 as the schematic shows or delete the second capacitors (C6, C7 and C8)?
+•	Still on the ESC schematic. The Schottkey clamping diodes are 40V because the Yardforce works off 30-something volts. I should re-respecify these to 25/30V as the Landroid works off 20V. (same with the other Schottkeys dotted around)
+•	Related to operating voltages I need to check the Rs around the MAX20405 DC-DC convertor. R8s value is unspecified, R11 and R12 appear to be a voltage divider so I’ll need to check the datasheet.
+•	The IMU schematic had some unconnected components that Kincad spotted on the ERC. I deleted these but there appears to be 2 IMUs. The WT901 is a 9 axis Accelerometer, Gyro and Magnetic Field MPU and the LSM6DSO is a 3D Accelerometer and 3D Gyro. Are both needed or is this an either/or/development legacy
+•	The Raspberry PI Schematic showed SW1 and SW2 in parallel bypassing the SIP32509 slew controlled load switch – I deleted the lower current rated switch as the PI would could draw a fair bit during start up. I suppose the follow-on question is that if the slew controlled switch can be bypassed why is it needed at all? (Also Kicad throws an error because Pin 1 and Pin 2 are both V outs and connected – I checked the datasheet this is OK}
+Another poke around in the shell of the Landroid confirms that the Lift Sensor on the single front wheel of the WR141E is in fact a hall sensor. The large models will have 2 so Ill leave 2 hall sensor connectors on the board. I need to leave connectors for the Emergency stop and a bump switch or two.
+I took apart the 2 Powershare chargers to see what was in them. I have on dating from 2018 (WA3860) and another dating from 2021 (WA3880). The 2021 version has a lot lower component count and is cheaper on Amazon so I’ll try to use that for charging. But I need to understand what comes out of the Docking station so that’ll be the next task.
+
+6 Nov 2023
+Initial thoughts were to somehow hack into the current firmware to correct the control system so that its basically not so stupid so that;
+•	When it gets stuck it doesn’t random shimmy it just turns and goes
+•	It doesn’t dig holes when it gets stuck 
+•	It doesn’t keep ignoring the boundary wire
+Not such a tall list but the gurus on open mower project confirm that the firmware and interchip comms are encrypted, the LDP main processor is read locked and the JTAG test connections are disabled. So it seems that Landroid has pretty well locked down the Control system and it could only be hacked with specialist knowledge and equipment.
+So with that avenue closed it seems logical to pursue the Open mower path if possible, using a new motherboard, motor controllers and GPS RTK navigation to dispense with the whole boundary wire fiasco and improve cutting efficiency.
+Open mower uses a low cost robot mower as the donor for the parts but the donor doesn’t offer “cut to edge” capability which Landroid does and it doesn’t seem much sense to sell one robot mower to buy a cheaper one in order to rip out the guts and replace it with some fairly expensive parts. Whichever way I go I reckon that I’m in for another 500 - 600Euro net.
+So this “fork” attempts to take as much of the open mower hardware and firmware as possible and shoe horn it into a 2019 WR141E Landroid
+Initial examination of the space available for the Open mower Mobo means it won’t fit. Its about 180 x 170mm and will be around 40mm deep with all components mounted, whereas the original Landroid mobo is around 105 x115mm so something will have to give.
+The future RTK Open Landroid won’t need ACS (or will it?) so first thought is that the cabling and access bays can be removed and weather sealed ie taken down to deck level internally and then plugged or filled with fibreglass or similar. This frees up additional space upto a maximum of about 140 x 170mm. Which is still not enough to accommodate the stock open mower mobo. 
+As the OM mobo plans are open sourced it seems possible to reconfigure the components and redesign the mobo to fit. Experimentation in Fusion360 indicated that the only way to make it fit is to separate the GPS module placing it in the space on the front right of the Landroid (with its aerial mounted above on a custom ground plane and support. The connections 5v, 3.3v, TxD, RxD and Gnd are all that’s required to link it to the Pico on the main mobo. 
+Given that the BLDC motor only have 3 wires to them, they can only operate in sensorless mode. OMs XESCmini supports sensorless mode which means no changes are required to the hardware as such but it does offer the opportunity to delete the Hall sensor connections and simplify the mobo a little.
+There are also a bunch of sensors that feed into the PICO. Most seem unused in the OM project except for the lift/tilt safety detection so perhaps some of these could be deleted as well (maybe reserving some for bump sensors and/or ACS.) I will need to check the pin assignments in firmware to see what they are used for.
+For charging, the Landroid has onboard charging and battery management but I’m hoping to cannibalise one of the Powershare chargers and mount that in the space between the rear wheels reserved for Landroids Voice Command and/or Find My Landroid radio link. (Note to self - need to think about security for the RTK OM Landroid). If possible that will negate the need for charge control, but some form battery monitoring will still be required on the Mobo to ensure it returns to base before running out of juice.
+The other OM feature that may need to go is the optional sound module, but Ill try to keep it for now.
+A word on the display. I haven’t really thought about it other than to question if I need it at all given that the app seems capable of all the functions needed, or should I convert it to a Gucci LCD display or make my own. Last thing on a long list at the moment.
 
