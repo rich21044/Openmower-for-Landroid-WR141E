@@ -1,3 +1,6 @@
+9 Nov 2023
++ Changed the somewhat randomly chosen Molex motor connectors to match the original Landroid motor connectors (AMP/TE-179839-1 3-Pin Power Double Lock 3.96mm pitch)  ).
+
 8 Nov 2023
 I didnt get any replies yet in Discord so I just went ahead and made some further changes to the board
 + Deleted 3 of the 5 USS feeds - 2 remain 
