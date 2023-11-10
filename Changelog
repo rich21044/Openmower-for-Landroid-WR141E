@@ -1,3 +1,6 @@
+10 Nov 2023
++ Changed the JST GPS connector (J51) to 4 pin and rearranged connections. Pi to GPS connection will use the Pihawk connector on the Ardusimple RTK board and thus it only needs to be headerless when ordering (shaving a few Euro of the build cost)  
+
 9 Nov 2023
 + Changed the somewhat randomly chosen Molex motor connectors to match the original Landroid motor connectors (AMP/TE-179839-1 3-Pin Power Double Lock 3.96mm pitch).
 
