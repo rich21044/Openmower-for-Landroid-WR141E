@@ -1,3 +1,11 @@
+12 Nov 2023
+Struggling to get to grips with Kicad 7 at the moment...
++ Revised non-firmware dependent schematics to aid trace placement
++ Revised DC/DC schematic, footprint and removal of voltage selection components and associated jumper pads 
++ Revised MAX20405 specification to be MAX20405AFOCY/VY+ (5v/5A) instead of MAX20406AFOF/VY+ (3.3v/6A). 3.3V is output from PICO (max 300mA)
++ Deleted WT901 - finally found references in Discord conversations to indicate the WT901 is replaced on the original OM motherboard with the LSM6DSOTR IMU
++ Added net specifications for *PHASE*, VBATT, 5V and 3.3V. Net specs assume a 2oz/70um Cu board during manufacture instaed of the normal 1oz/35um
+
 10 Nov 2023
 + Changed the JST GPS connector (J51) to 4 pin and rearranged connections. Pi to GPS connection will use the Pihawk connector on the Ardusimple RTK board and thus it only needs to be headerless when ordering (shaving a few Euro of the build cost)  
 
