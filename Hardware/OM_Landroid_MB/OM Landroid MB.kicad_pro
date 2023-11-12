@@ -207,9 +207,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1638300|469900|f0e8d618-730b-469d-a53a-67cbbe1e7142|e1c1fcb7-0cdb-4d46-be15-3498b6fe0e8d|/c454102f-dc92-4550-9492-797fc8e6b49c/00000000-0000-0000-0000-000061080954|/c454102f-dc92-4550-9492-797fc8e6b49c/00000000-0000-0000-0000-000061080954|/c454102f-dc92-4550-9492-797fc8e6b49c/00000000-0000-0000-0000-000061080954"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -458,7 +456,7 @@
         "name": "3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 0.4,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -475,7 +473,7 @@
         "name": "5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
+        "track_width": 0.7,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -492,7 +490,7 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 5.0,
+        "track_width": 1.8,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -502,8 +500,27 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "V_BATT": "Power"
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "V_BATT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*PHASE*"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "*RASPI_P*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

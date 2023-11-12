@@ -1676,6 +1676,14 @@
     (uuid e2cdd652-bc0d-47a7-9d36-67a6e16dce01)
   )
 
+  (netclass_flag "" (length 2.54) (shape round) (at 40.64 25.4 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 92123279-3138-4cdb-a2cf-904e82560442)
+    (property "Netclass" "Power" (at 41.2496 22.86 0)
+      (effects (font (size 1.27 1.27) italic) (justify left))
+    )
+  )
+
   (symbol (lib_id "Connector:Conn_01x06_Female") (at 264.16 107.315 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 1455ed91-1a87-4c35-a973-0239e70a681a)
