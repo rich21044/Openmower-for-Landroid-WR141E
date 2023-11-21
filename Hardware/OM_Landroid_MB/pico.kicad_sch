@@ -1915,7 +1915,7 @@
     (property "Value" "Pico" (at 215.9 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PicoW:Raspberry_Pi_Pico_SMT_THT" (at 215.9 87.63 0)
+    (property "Footprint" "PicoW:Raspberry_Pi_Pico_THT" (at 215.9 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf" (at 215.9 133.35 0)

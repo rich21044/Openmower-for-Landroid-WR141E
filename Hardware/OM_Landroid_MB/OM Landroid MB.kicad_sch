@@ -744,8 +744,8 @@
     (property "LCSC" "C17414" (at 101.6 142.875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c86481ca-191d-4de6-925b-cce4801bbb5c))
-    (pin "2" (uuid da6c81e0-a124-4cc7-bc61-6d3179e3456e))
+    (pin "1" (uuid ccf4f39e-59e5-4dda-89f4-ae79e9685929))
+    (pin "2" (uuid eb478885-6c70-4a44-a17c-af69a37d4ed8))
     (instances
       (project "OM Landroid MB"
         (path "/c454102f-dc92-4550-9492-797fc8e6b49c"
