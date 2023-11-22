@@ -1,3 +1,25 @@
+22 Nov 2023
+Finally finished the first version of he mainboard today. Last minute change was to add a socket for the displauy which will run off the spare I2C lines on the Raspberry Pi
+
+14 Nov 2023
+A break from PCB layouts today. I started to think about charging. I built a datalogger, with an old Arduino UNO I found in the loft, to measure voltage and current while charging a Worx battery using a standard workshop charger (WA3880). 
+Max charging current seen (ignoring noise) was around 2A (equal to the rating on the unit) and a final charging voltage of 20.8v. The current in the final few minutes before the charged light comes on drops gently to around 0.4A and judging by 
+the graph the reduction in current starts as the voltage transitions from 20.7V to 20.8V. So if I setup CV to 20.7v and CC to something less than 2A on the CC/CV unit I have on order from Amazon everything should be OK.
+
+The base station exhibits an interesting function in that full voltage is only measured once a load (i.e. mower) is detected on the output otherwise it sits at a low voltage (<1V) keeping it safe from accidental contact from pets or kids.
+Not sure how to achieve that electronically at the moment so may have to come up with some sort of mechanical interlock/microswitch if I am to maintain safety. 
+Putting 20v on the mower charging points (+ve to the rear connection point) charges the battery as expected.
+
+I noiticed that in the orientation I have selected for the PICO, I'll need to use headers for mounting it otherwise access to the USB port for initial programming will be difficult/impossible. 
+
+12 Nov 2023
+Struggling to get to grips with Kicad 7 at the moment...
++ Revised non-firmware dependent schematics to aid trace placement
++ Revised DC/DC schematic, footprint and removal of voltage selection components and associated jumper pads 
++ Revised MAX20405 specification to be MAX20405AFOCY/VY+ (5v/5A) instead of MAX20406AFOF/VY+ (3.3v/6A). 3.3V is output from PICO (max 300mA)
++ Deleted WT901 - finally found references in Discord conversations to indicate the WT901 is replaced on the original OM motherboard with the LSM6DSOTR IMU
++ Added net specifications for *PHASE*, VBATT, 5V and 3.3V. Net specs assume a 2oz/70um Cu board during manufacture instead of the normal 1oz/35um.
+
 10 Nov 2023
 + Changed the JST GPS connector (J51) to 4 pin and rearranged connections. Pi to GPS connection will use the Pihawk connector on the Ardusimple RTK board and thus it only needs to be headerless when ordering (shaving a few Euro of the build cost)  
 
