@@ -1,3 +1,6 @@
+22 Nov 2023
+Finally finished the first version of he mainboard today. Last minute change was to add a socket for the displauy which will run off the spare I2C lines on the Raspberry Pi
+
 14 Nov 2023
 A break from PCB layouts today. I started to think about charging. I built a datalogger, with an old Arduino UNO I found in the loft, to measure voltage and current while charging a Worx battery using a standard workshop charger (WA3880). 
 Max charging current seen (ignoring noise) was around 2A (equal to the rating on the unit) and a final charging voltage of 20.8v. The current in the final few minutes before the charged light comes on drops gently to around 0.4A and judging by 
