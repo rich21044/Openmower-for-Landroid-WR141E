@@ -1,3 +1,10 @@
+23 Nov 2023
+PCB is not ready yet as I need to make some changes linked to battery charging as I want to retain the original batteries. The following changes will be needed 
+  + I can delete J3 as its just a charging plug, if needed I can charge batteries externally using the workshop chargers I have. 
+  + J2 can be changed to physically match the original plug found in the mower - need to investigate which one it is
+  + One of the 3 ADCs on the Pico monitors the Input voltage from the charger and at the moment I dont see why this is necessary, I think this would be better used if it monitored battery temperature, since Vbatt and Icharge are already being monitored. 
+    If i monitor battery voltage, current and temperature during charge and discharge cycles I can keep it safe but it will need changes in the firmware. I didnt really want to got there but look like I have to.
+
 22 Nov 2023
 Finally finished the first version of he mainboard today. Last minute change was to add a socket for the displauy which will run off the spare I2C lines on the Raspberry Pi
 
