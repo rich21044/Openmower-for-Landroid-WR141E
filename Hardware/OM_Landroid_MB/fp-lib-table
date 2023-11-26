@@ -10,4 +10,5 @@
   (lib (name "PicoW")(type "KiCad")(uri "${KIPRJMOD}/RP-PicoW Libraries/Module.pretty")(options "")(descr ""))
   (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/lcsc.pretty")(options "")(descr ""))
   (lib (name "RPi_c")(type "KiCad")(uri "${KIPRJMOD}/RPi_c.pretty")(options "")(descr ""))
+  (lib (name "Landroid_Motor_Conn")(type "KiCad")(uri "${KIPRJMOD}/Landroid_Motor_Conn.pretty")(options "")(descr ""))
 )
