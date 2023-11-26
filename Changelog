@@ -1,3 +1,6 @@
+26 Nov 2023
+Changes from 23 Nov changelog entry below now refelcted in Main board design
+
 23 Nov 2023
 PCB is not ready yet as I need to make some changes linked to battery charging as I want to retain the original batteries. The following changes will be needed 
   + I can delete J3 as its just a charging plug, if needed I can charge batteries externally using the workshop chargers I have. 
