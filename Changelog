@@ -1,3 +1,11 @@
+29 Nov 2023
+Generated a BOM and then went through it to find price and availability. Some componets are no longer stocked by digikey and substitutes were made.
+  + The MAX20405 spec was changed to 5v/5A and L1 to 6.8uH as per the datasheet. 
+  + Raspberry Pi header changed to an extended version so that a cutout is not needed in the Board to allow the RPi USB and Network sockets to fit
+  + Still some work needed to complete and align the board and BOM.   
+I can't find any info on the TVS diodes associated with the xESCs, however in seaching for recommendations I stumbled across as set of Ti BLDC motor driver chips, after a quick dive into the datasheets it looks like the MCF8316A might be suitable.
+It provides upto 40V 8A drive in a sensorless FOC mode and runs off an i2c bus signal. Im going down another rabbit hole to see if I can make it work and eventually interface with the OM sofdtware because its cheaper than the Xtech xESC, it doesnt have the availablity issues that ClemensElfin mentions and isnt still under development. I might provide a quicker path to OMLandroid and simplify the motherboard as well. 
+
 26 Nov 2023
 Changes from 23 Nov changelog entry below now refelcted in Main board design
 
