@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MCF8316A")(type "KiCad")(uri "C:/Users/matth/Documents/GitHub/Openmower-for-Landroid-WR141E/Hardware/MCF8316A.pretty")(options "")(descr ""))
+)
