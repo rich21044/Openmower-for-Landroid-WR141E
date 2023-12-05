@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\matth\Documents\GitHub\Openmower-for-Landroid-WR141E\Hardware\MCF8316A\MCF8316A Module\MCF8316A Module.kicad_sch</source>
+    <date>30/11/2023 17:51:32</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MCF8316A Module.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF 50v</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1029-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey" value="1276-1029-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10ad9eb6-71f9-4cbe-8e5d-f0a758ea0a11</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>47nF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1250-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey" value="1276-1250-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a8f43f4-8cca-454c-a910-228641046616</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uf 50v</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1003-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey" value="1276-1003-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>894cac52-e162-47f1-93a0-d4c162112718</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>330uf 50v</value>
+      <footprint>Capacitor_SMD:C_Elec_10x10.2</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/935/MZR_Series_DS.pdf</datasheet>
+      <fields>
+        <field name="Digikey">565-EMZR500ARA331MJA0GCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Digikey" value="565-EMZR500ARA331MJA0GCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79947aba-dd1d-4c34-9a64-fcf9c2fb3813</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22uF 10v</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-2910-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey" value="1276-2910-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5cc0e5d-7e27-491f-bd06-2c1ed5710702</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF 6.3V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey">399-13161-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey" value="399-13161-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c319fec-f2e5-415d-afc4-406968c1bf4f</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1uF 6.3v</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey">399-13161-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Digikey" value="399-13161-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>483033c1-a050-43cf-bee0-eab836d06259</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>3mm Red</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Digikey">1080-1048-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Digikey" value="1080-1048-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c8bf874-b660-4637-b463-f50c14b0897e</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>3mm Grn</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Digikey">516-1792-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Digikey" value="516-1792-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e8126bf-d7f9-4704-a003-5c50d3c34ae9</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f033716-6663-42aa-b2eb-c50664c83206</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0604bd8-4648-40e4-a7c7-6b1ec1b8fd7a</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c0c8a82-35ab-422f-a796-57fa3f68b266</tstamps>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial</value>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Fiducial Marker"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74026f54-7c44-4129-8edc-9f1a35d40246</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digikey">952-3273-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Digikey" value="952-3273-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd68dd2b-2fe3-4850-b8eb-e7e54b893431</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digikey">952-3273-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Digikey" value="952-3273-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1bec379-17cb-4314-a126-9f2fc7fe4f0a</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digikey">952-3273-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Digikey" value="952-3273-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da27cadc-3106-4944-9fe5-09589a04eb7f</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digikey">952-3273-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Digikey" value="952-3273-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71426151-47cd-4471-8c9f-d92a430fc40b</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Digikey">952-3273-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Digikey" value="952-3273-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>545dd7c6-76dc-42e4-af89-598693d6e6e3</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x10_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x10_Pin" description="Generic connector, single row, 01x10, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>134f64d7-3280-4e88-b29b-57d5961b34af</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey">RMCF0805FT22R0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Digikey" value="RMCF0805FT22R0CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f439f899-4f42-4c8e-b474-5cfd40358094</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1.54k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey">RMCF0805FT1K54CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Digikey" value="RMCF0805FT1K54CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e3588d7-2545-4616-920b-41f8f6df2c1a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey">541-CRCW08055K00FKTACT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Digikey" value="541-CRCW08055K00FKTACT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d82fb44-5970-4ff1-812b-fffa3bad583d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey">541-CRCW08055K00FKTACT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Digikey" value="541-CRCW08055K00FKTACT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9675009-5642-4d33-81e4-7282d2993f54</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1.6k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Digikey">RMCF0805FT1K60CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Digikey" value="RMCF0805FT1K60CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3194c058-b521-45be-bee9-30348f54acd2</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MCF8316A1VRGFR</value>
+      <footprint>VQFN40_RGF_TEX</footprint>
+      <datasheet>MCF8316A1VRGFR</datasheet>
+      <fields>
+        <field name="Digikey">296-MCF8316A1VRGFRCT-ND</field>
+      </fields>
+      <libsource lib="MCF8316A" part="MCF8316A1VRGFR" description=""/>
+      <property name="Digikey" value="296-MCF8316A1VRGFRCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="MCF8316A Module.kicad_sch"/>
+      <property name="ki_keywords" value="MCF8316A1VRGFR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6df62690-d3f5-4efe-b4db-2b0052744f1d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Pin">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Pin">
+      <description>Generic connector, single row, 01x10, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCF8316A" part="MCF8316A1VRGFR">
+      <docs>MCF8316A1VRGFR</docs>
+      <footprints>
+        <fp>VQFN40_RGF_TEX</fp>
+        <fp>VQFN40_RGF_TEX-M</fp>
+        <fp>VQFN40_RGF_TEX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">MCF8316A1VRGFR</field>
+        <field name="Footprint">VQFN40_RGF_TEX</field>
+        <field name="Datasheet">MCF8316A1VRGFR</field>
+        <field name="Digikey">296-MCF8316A1VRGFRCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DVDD" type="power_out"/>
+        <pin num="2" name="DGND" type="power_in"/>
+        <pin num="3" name="FB_BK" type="power_in"/>
+        <pin num="4" name="GND_BK" type="power_in"/>
+        <pin num="5" name="SW_BK" type="power_out"/>
+        <pin num="6" name="CPL" type="power_in"/>
+        <pin num="7" name="CPH" type="power_out"/>
+        <pin num="8" name="CP" type="power_in"/>
+        <pin num="9" name="VM" type="power_in"/>
+        <pin num="10" name="VM" type="power_in"/>
+        <pin num="11" name="VM" type="power_in"/>
+        <pin num="12" name="PGND" type="power_in"/>
+        <pin num="13" name="OUTA" type="power_out"/>
+        <pin num="14" name="OUTA" type="power_out"/>
+        <pin num="15" name="PGND" type="power_in"/>
+        <pin num="16" name="OUTB" type="power_out"/>
+        <pin num="17" name="OUTB" type="power_out"/>
+        <pin num="18" name="PGND" type="power_in"/>
+        <pin num="19" name="OUTC" type="power_out"/>
+        <pin num="20" name="OUTC" type="power_out"/>
+        <pin num="21" name="DRVOFF" type="input"/>
+        <pin num="22" name="NC" type="no_connect"/>
+        <pin num="23" name="NC" type="no_connect"/>
+        <pin num="24" name="NC" type="no_connect"/>
+        <pin num="25" name="NC" type="no_connect"/>
+        <pin num="26" name="AGND" type="power_in"/>
+        <pin num="27" name="AVDD" type="power_out"/>
+        <pin num="28" name="SPEED/WAKE" type="input"/>
+        <pin num="29" name="FG" type="output"/>
+        <pin num="30" name="SDA" type="bidirectional"/>
+        <pin num="31" name="SCL" type="input"/>
+        <pin num="32" name="EXT_WD" type="input"/>
+        <pin num="33" name="EXT_CLK" type="input"/>
+        <pin num="34" name="DIR" type="input"/>
+        <pin num="35" name="BRAKE" type="input"/>
+        <pin num="36" name="NC" type="no_connect"/>
+        <pin num="37" name="NC" type="no_connect"/>
+        <pin num="38" name="SOX" type="output"/>
+        <pin num="39" name="NC" type="no_connect"/>
+        <pin num="40" name="NFAULT" type="output"/>
+        <pin num="41" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCF8316A">
+      <uri>C:\Users\matth\Documents\GitHub\Openmower-for-Landroid-WR141E\Hardware\MCF8316A\MCF8316A Module/2023-11-29_06-42-13.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+BATT">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VM" pintype="power_in"/>
+      <node ref="U1" pin="11" pinfunction="VM" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="VM" pintype="power_in"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U1" pin="15" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="DGND" pintype="power_in"/>
+      <node ref="U1" pin="26" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="GND_BK" pintype="power_in"/>
+      <node ref="U1" pin="41" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="NFAULT" pintype="output"/>
+    </net>
+    <net code="5" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="FG" pintype="output"/>
+    </net>
+    <net code="7" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="OUTA" pintype="power_out"/>
+      <node ref="U1" pin="14" pinfunction="OUTA" pintype="power_out"/>
+    </net>
+    <net code="8" name="Net-(J2-Pin_1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="OUTB" pintype="power_out"/>
+      <node ref="U1" pin="17" pinfunction="OUTB" pintype="power_out"/>
+    </net>
+    <net code="9" name="Net-(J3-Pin_1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="OUTC" pintype="power_out"/>
+      <node ref="U1" pin="20" pinfunction="OUTC" pintype="power_out"/>
+    </net>
+    <net code="10" name="Net-(J6-Pin_1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="DRVOFF" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(J6-Pin_2)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="AVDD" pintype="power_out"/>
+    </net>
+    <net code="12" name="Net-(J6-Pin_3)">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="SPEED/WAKE" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(J6-Pin_5)">
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(J6-Pin_6)">
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(J6-Pin_7)">
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(J6-Pin_8)">
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="BRAKE" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(J6-Pin_9)">
+      <node ref="J6" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="SOX" pintype="output"/>
+    </net>
+    <net code="18" name="Net-(U1-CP)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="CP" pintype="power_in"/>
+    </net>
+    <net code="19" name="Net-(U1-CPH)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="CPH" pintype="power_out"/>
+    </net>
+    <net code="20" name="Net-(U1-CPL)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="CPL" pintype="power_in"/>
+    </net>
+    <net code="21" name="Net-(U1-DVDD)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="DVDD" pintype="power_out"/>
+    </net>
+    <net code="22" name="Net-(U1-FB_BK)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="FB_BK" pintype="power_in"/>
+    </net>
+    <net code="23" name="Net-(U1-SW_BK)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SW_BK" pintype="power_out"/>
+    </net>
+    <net code="24" name="unconnected-(U1-EXT_CLK-Pad33)">
+      <node ref="U1" pin="33" pinfunction="EXT_CLK" pintype="input+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-EXT_WD-Pad32)">
+      <node ref="U1" pin="32" pinfunction="EXT_WD" pintype="input+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U1-NC-Pad22)">
+      <node ref="U1" pin="22" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-NC-Pad23)">
+      <node ref="U1" pin="23" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-NC-Pad24)">
+      <node ref="U1" pin="24" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-NC-Pad25)">
+      <node ref="U1" pin="25" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-NC-Pad36)">
+      <node ref="U1" pin="36" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-NC-Pad37)">
+      <node ref="U1" pin="37" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-NC-Pad39)">
+      <node ref="U1" pin="39" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
