@@ -1,3 +1,11 @@
+20 Dec 2023
+While it may look like its gone quiet, I've been working on the MCF8316A motor driver board. I ordered the boards from PCBway and they arrived a couple of weeks ago.
+The components arrived about a week later and since then I built a PID controlled hot plate and learnt how to do reflow soldering. However I couldnt talk to the boards over the I2C bus.
+A couple of days ago I found out what was wrong, apparently FG needs to be pulled up to AVDD but thats not specifically mentioned in the Datasheet. So I made some modifications
+and finally just 2 days ago got the driver chip to acknowledge a scan. All I have to do now is work out how to programm an Arduino to send the bytes needed to set up the device
+because although the chip communicates over I2C its not he same a writing to an I2C display. Raspberry PI and the SMBUS library appear to operate a level higher than I need
+and has built in restrictions such as not being able to talk to the chip at its default address (0x01) as its normally a reserved address. 
+
 29 Nov 2023
 Generated a BOM and then went through it to find price and availability. Some componets are no longer stocked by digikey and substitutes were made.
   + The MAX20405 spec was changed to 5v/5A and L1 to 6.8uH as per the datasheet. 
