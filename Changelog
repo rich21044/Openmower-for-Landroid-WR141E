@@ -1,3 +1,8 @@
+18 Apr 2024
+I have been sidetracked into another project that needs a working prototype built and tested in time for a trade show in September. I am really quite excited by this new project and the fact that it could generate some real money but it comes at the cost of not being able to spend any real time on the OM Landroid fork.
+Clemens Elflein got in contact and I sent him a motordriver board to test but without success and, he like me, hasnt got much spare time at the moment to dive into it and debug it. I remain optomistic that it will work but for me the issue was writing code to talk to the chip over the I2C bus, it should be simple in theory but bit shifting, reading bytes in reverse order takes alot for me as I have to do it all from first principles. 
+I translated the MCF8316A data sheet into Excel to help me understand what I was trying to do but thats as far as I have got. I will post the Excel file to the Documents folder in the hope that others find it useful.
+
 20 Dec 2023
 While it may look like its gone quiet, I've been working on the MCF8316A motor driver board. I ordered the boards from PCBway and they arrived a couple of weeks ago.
 The components arrived about a week later and since then I built a PID controlled hot plate and learnt how to do reflow soldering. However I couldnt talk to the boards over the I2C bus.
